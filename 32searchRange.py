@@ -48,5 +48,5 @@ class Solution(object):
         return [left, right-1]
 
 s = Solution()
-s = s.searchRange([5,7,7,8,8,10], 8)
+s = s.searchRange([3,3,8,8,8,10], 8)
 print(s)
