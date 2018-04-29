@@ -35,6 +35,7 @@ class Solution(object):
             else:
                 start = mid + 1
             mid = (start + end) // 2
+
         if nums[mid] < target:
             return mid + 1
         else:
